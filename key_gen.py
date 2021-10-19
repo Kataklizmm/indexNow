@@ -11,6 +11,7 @@ def keygen(domain):
 	file = open(f'{key}.txt', 'w', encoding='utf-8')
 	file.write(key)
 	file.close()
+	return key
 
 if __name__ == "__main__":
 	keygen()
