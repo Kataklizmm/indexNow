@@ -3,7 +3,7 @@ import random
 
 def keygen(domain):
 	if not domain:
-		key = input('Введите домен')
+		key = input('Введите домен без протокола')
 	key = domain
 	key = key.replace('.','-')
 	for i in range(30):
