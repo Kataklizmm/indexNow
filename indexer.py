@@ -25,7 +25,7 @@ if os.path.isfile('index.txt'):
     for i in urls.split('\n'):
         urls_list.append(i)
 else:
-    print("Файл не найден")
+    print("Файл index.txt не найден")
 
 headers = {
     'Content-Type': 'application/json; charset=utf-8',
