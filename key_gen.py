@@ -2,9 +2,9 @@ import string
 import random
 
 def keygen(domain):
-	if not domain:
-		key = input('Введите домен без протокола')
 	key = domain
+	if not domain:
+		key = input('Введите домен')
 	key = key.replace('.','-')
 	for i in range(30):
 		key = key + random.choice(string.ascii_letters)
@@ -14,4 +14,4 @@ def keygen(domain):
 	return key
 
 if __name__ == "__main__":
-	keygen()
+	keygen(None)
