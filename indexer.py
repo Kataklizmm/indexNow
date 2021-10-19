@@ -43,3 +43,5 @@ resp = requests.post("https://yandex.com/indexnow", data=data)
 
 print(resp.text)
 print(resp.status_code)
+if resp.status_code == 200:
+    print("Запрос успешно отправлен")
