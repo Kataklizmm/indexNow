@@ -29,7 +29,7 @@ else:
 
 headers = {
     'Content-Type': 'application/json; charset=utf-8',
-    'Host': 'https://yandex.com'
+    'Host': 'yandex.com'
 }
 
 params = {
