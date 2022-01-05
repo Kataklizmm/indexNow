@@ -4,7 +4,7 @@ import key_gen
 import json
 from urllib.parse import urlparse
 
-domain = input("Введите домен для которого хотите отправить запрос без протокола \n")
+domain = input("Введите домен для которого хотите отправить запрос \n")
 domain_key = domain.replace('.', '-')
 
 for file in os.listdir():
